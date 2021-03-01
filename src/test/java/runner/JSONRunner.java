@@ -27,6 +27,7 @@ public class JSONRunner {
 		
 		
 		JSONArray testSuites = (JSONArray)json.get("testsuites");
+		
 		for(int sId=0;sId<testSuites.size();sId++) {
 			JSONObject testSuite = (JSONObject)testSuites.get(sId);
 			String runMode=(String)testSuite.get("runmode");
