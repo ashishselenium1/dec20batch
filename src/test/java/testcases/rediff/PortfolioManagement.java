@@ -27,10 +27,7 @@ public class PortfolioManagement extends BaseTest{
 	@Test
 	public void deletePortfolio(ITestContext context) {
 		JSONObject data = (JSONObject)context.getAttribute("data");
-
-		String portfolioName=(String)data.get("portfolioname");
-		
-		
+		String portfolioName=(String)data.get("portfolioname");		
 		app.log("Deleting Profolio");
         app.selectByVisibleText("portfolioid_dropdown_id", portfolioName);
         app.waitForPageToLoad();

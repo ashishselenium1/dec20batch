@@ -1,5 +1,5 @@
 {
-"browsers":["Chrome,Mozilla"],
+"browsers":["Chrome","Mozilla"],
 "parallelsuites":"1",
 "testsuites":[
 	{
