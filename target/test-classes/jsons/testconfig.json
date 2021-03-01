@@ -3,7 +3,7 @@
 "parallelsuites":"1",
 "testsuites":[
 	{
-	 "runmode":"N",
+	 "runmode":"Y",
 	 "name":"PortFolio Suite",
 	 "testdatajsonfile":"data//portfoliodata.json",
 	 "suitefilename":"suites//portfoliosuite.json",

@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="10" failed="0" ignored="12" total="22" passed="0">
+<testng-results skipped="12" failed="1" ignored="20" total="34" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Stock Suite" duration-ms="1498" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:51 IST">
+  <suite name="PortFolio Suite" duration-ms="54359" started-at="2021-02-28T16:10:39 IST" finished-at="2021-02-28T16:11:34 IST">
     <groups>
     </groups>
-    <test name="Add New Stock-New Stock-It.1" duration-ms="1371" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:51 IST">
+    <test name="Create Portfolio-Create New PortFolio-pos-It.1" duration-ms="29170" started-at="2021-02-28T16:10:39 IST" finished-at="2021-02-28T16:11:09 IST">
       <class name="testcases.rediff.PortfolioManagement">
-        <test-method status="SKIP" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@7946e1f4]" name="beforeTest" is-config="true" duration-ms="494" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@43b0ade]" name="beforeTest" is-config="true" duration-ms="20796" started-at="2021-02-28T16:10:39 IST" finished-at="2021-02-28T16:11:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
+                <![CDATA[org.testng.TestRunner@7a344b65]]>
               </value>
             </param>
           </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skpping as Data Runmode is N]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
-at testbase.BaseTest.beforeTest(BaseTest.java:65)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@7946e1f4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@43b0ade]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:00 IST" finished-at="2021-02-28T16:11:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
+                <![CDATA[org.testng.TestRunner@7a344b65]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="selectPortFolio()[pri:0, instance:testcases.rediff.PortfolioManagement@7946e1f4]" name="selectPortFolio" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="PASS" signature="createPortfolio(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@43b0ade]" name="createPortfolio" duration-ms="7069" started-at="2021-02-28T16:11:00 IST" finished-at="2021-02-28T16:11:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a344b65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@43b0ade]" name="quit" is-config="true" duration-ms="1302" started-at="2021-02-28T16:11:07 IST" finished-at="2021-02-28T16:11:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a344b65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </test> <!-- Create Portfolio-Create New PortFolio-pos-It.1 -->
+    <test name="Create Portfolio-Create New PortFolio-pos-It.2" duration-ms="46" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:09 IST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="SKIP" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@a0a9fa5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4390f46e]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -92,18 +92,406 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@a0a9fa5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4390f46e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="createPortfolio(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@a0a9fa5]" name="createPortfolio" duration-ms="0" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:09 IST">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@a0a9fa5]" name="quit" is-config="true" duration-ms="43" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4390f46e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </test> <!-- Create Portfolio-Create New PortFolio-pos-It.2 -->
+    <test name="Delete Portfolio-Delete Existing PortFolio-It.1" duration-ms="25012" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:34 IST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@6569dded]" name="beforeTest" is-config="true" duration-ms="20561" started-at="2021-02-28T16:11:09 IST" finished-at="2021-02-28T16:11:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e1af49b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@6569dded]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:29 IST" finished-at="2021-02-28T16:11:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e1af49b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="deletePortfolio(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@6569dded]" name="deletePortfolio" duration-ms="3114" started-at="2021-02-28T16:11:29 IST" finished-at="2021-02-28T16:11:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e1af49b]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-RTOOT5Q', ip: '192.168.1.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\info\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4f94657b6214066406007c28f9f83d63]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-RTOOT5Q', ip: '192.168.1.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\info\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4f94657b6214066406007c28f9f83d63
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:153)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.ArrayList$ArrayListSpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.support.ui.Select.getFirstSelectedOption(Select.java:97)
+at keywords.ValidationKeywords.validateSelectedValueNotInDropDown(ValidationKeywords.java:36)
+at testcases.rediff.PortfolioManagement.deletePortfolio(PortfolioManagement.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@6569dded]" name="quit" is-config="true" duration-ms="1336" started-at="2021-02-28T16:11:32 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e1af49b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </test> <!-- Delete Portfolio-Delete Existing PortFolio-It.1 -->
+    <test name="Delete Portfolio-Delete Existing PortFolio-It.2" duration-ms="23" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="SKIP" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@301d8120]" name="beforeTest" is-config="true" duration-ms="2" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bec2275]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="deletePortfolio(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@301d8120]" name="deletePortfolio" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@301d8120]" name="quit" is-config="true" duration-ms="20" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bec2275]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@301d8120]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bec2275]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </test> <!-- Delete Portfolio-Delete Existing PortFolio-It.2 -->
+  </suite> <!-- PortFolio Suite -->
+  <suite name="Stock Suite" duration-ms="153" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+    <groups>
+    </groups>
+    <test name="Add New Stock-New Stock-It.1" duration-ms="54" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="SKIP" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@2e3a5237]" name="beforeTest" is-config="true" duration-ms="18" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="selectPortFolio()[pri:0, instance:testcases.rediff.PortfolioManagement@2e3a5237]" name="selectPortFolio" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPortFolio -->
-        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@7946e1f4]" name="quit" is-config="true" duration-ms="754" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@2e3a5237]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@2e3a5237]" name="quit" is-config="true" duration-ms="25" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
               </value>
             </param>
           </params>
@@ -112,29 +500,18 @@ at runner.JSONRunner.main(JSONRunner.java:106)
         </test-method> <!-- quit -->
       </class> <!-- testcases.rediff.PortfolioManagement -->
       <class name="testcases.rediff.StockManagement">
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="addNewStock(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="addNewStock" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="SKIP" signature="addNewStock(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="addNewStock" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -164,14 +541,14 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewStock -->
-        <test-method status="SKIP" signature="verifyStockPresent()[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="verifyStockPresent" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="SKIP" signature="verifyStockPresent()[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="verifyStockPresent" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -201,25 +578,36 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStockPresent -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="verifyStockQuantity(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="verifyStockQuantity" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyStockQuantity(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="verifyStockQuantity" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -249,25 +637,14 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStockQuantity -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="verifyTransactionHistory(java.lang.String)[pri:0, instance:testcases.rediff.StockManagement@2669b199]" name="verifyTransactionHistory" duration-ms="0" started-at="2021-02-28T15:15:50 IST" finished-at="2021-02-28T15:15:50 IST">
+        <test-method status="SKIP" signature="verifyTransactionHistory(java.lang.String)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="verifyTransactionHistory" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -297,114 +674,125 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTransactionHistory -->
-      </class> <!-- testcases.rediff.StockManagement -->
-    </test> <!-- Add New Stock-New Stock-It.1 -->
-    <test name="Add New Stock-New Stock-It.2" duration-ms="24" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
-      <class name="testcases.rediff.PortfolioManagement">
-        <test-method status="SKIP" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@2ef5e5e3]" name="beforeTest" is-config="true" duration-ms="3" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@4ebadd3d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skpping as Data Runmode is N]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
-at testbase.BaseTest.beforeTest(BaseTest.java:65)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="selectPortFolio()[pri:0, instance:testcases.rediff.PortfolioManagement@2ef5e5e3]" name="selectPortFolio" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skpping as Data Runmode is N]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
-at testbase.BaseTest.beforeTest(BaseTest.java:65)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectPortFolio -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@2ef5e5e3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
+                <![CDATA[org.testng.TestRunner@4ad3d266]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@2ef5e5e3]" name="quit" is-config="true" duration-ms="14" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+      </class> <!-- testcases.rediff.StockManagement -->
+    </test> <!-- Add New Stock-New Stock-It.1 -->
+    <test name="Add New Stock-New Stock-It.2" duration-ms="39" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="SKIP" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@4a699efa]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@4a699efa]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="selectPortFolio()[pri:0, instance:testcases.rediff.PortfolioManagement@4a699efa]" name="selectPortFolio" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortFolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@4a699efa]" name="quit" is-config="true" duration-ms="30" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
               </value>
             </param>
           </params>
@@ -413,7 +801,7 @@ at runner.JSONRunner.main(JSONRunner.java:106)
         </test-method> <!-- quit -->
       </class> <!-- testcases.rediff.PortfolioManagement -->
       <class name="testcases.rediff.StockManagement">
-        <test-method status="SKIP" signature="addNewStock(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="addNewStock" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="SKIP" signature="addNewStock(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="addNewStock" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -443,25 +831,47 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewStock -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="verifyStockPresent()[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="verifyStockPresent" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyStockPresent()[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="verifyStockPresent" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -491,25 +901,14 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStockPresent -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="verifyStockQuantity(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="verifyStockQuantity" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="SKIP" signature="verifyStockQuantity(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="verifyStockQuantity" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -539,36 +938,25 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStockQuantity -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
+                <![CDATA[org.testng.TestRunner@9a6fbc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@b3ca52e]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="verifyTransactionHistory(java.lang.String)[pri:0, instance:testcases.rediff.StockManagement@36d4b5c]" name="verifyTransactionHistory" duration-ms="0" started-at="2021-02-28T15:15:51 IST" finished-at="2021-02-28T15:15:51 IST">
+        <test-method status="SKIP" signature="verifyTransactionHistory(java.lang.String)[pri:0, instance:testcases.rediff.StockManagement@38499e48]" name="verifyTransactionHistory" duration-ms="0" started-at="2021-02-28T16:11:34 IST" finished-at="2021-02-28T16:11:34 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skpping as Data Runmode is N]]>
@@ -598,7 +986,7 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at runner.TestNGRunner.run(TestNGRunner.java:86)
-at runner.JSONRunner.main(JSONRunner.java:106)
+at runner.JSONRunner.main(JSONRunner.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->

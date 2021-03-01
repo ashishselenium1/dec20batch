@@ -18,7 +18,6 @@ public class JSONRunner {
 // string,jsonarray,jsonobject
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 		Map<String,String> classMethods=new DataUtil().loadClassMethods();
-		System.out.println("-->"+new JSONRunner().getClass().getClassLoader().getResourceAsStream("testconfig.json"));
 		String path=System.getProperty("user.dir")+"//src//test//resources//jsons//testconfig.json";
 		JSONParser parser = new JSONParser();
 		JSONObject json=(JSONObject)parser.parse(new FileReader(new File(path)));

@@ -11,13 +11,6 @@
 		   "dataflag":"createnewportfolio",
 		   "parametervalues":["createport","chrome"],
 		   "methods":["createPortfolio"]
-		   },
-		   {
-		   "runmode":"N",
-		   "executionname":"Create New PortFolio-neg",
-		   "dataflag":"createnewportfolio",
-		   "parametervalues":["createport","mozilla"],
-		   "methods":["createPortfolio"]
 		   }
 	   ] 
       },

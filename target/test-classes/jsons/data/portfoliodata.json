@@ -4,12 +4,12 @@
 	   "flag":"createnewportfolio",
 	    "data":[
 	     {
-	     "portfolioname":"Folio2021",
+	     "portfolioname":"Cat11009977",
 	     "runmode":"Y"
 	     },
 	     {
 	     "portfolioname":"Folio2022",
-	     "runmode":"Y"
+	     "runmode":"N"
 	     }
 	    ]		
 	},
@@ -17,8 +17,8 @@
 	   "flag":"deleteportfolio",
 	    "data":[
 	     {
-	     "portfolioname":"Folio2021",
-	     "runmode":"N"
+	     "portfolioname":"Cat11009977",
+	     "runmode":"Y"
 	     },
 	     {
 	     "portfolioname":"Folio2022",
